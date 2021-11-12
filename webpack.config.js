@@ -27,13 +27,18 @@ const config = {
         new CopyPlugin([
             { from: 'src/index.html' },
             { from: 'src/css/style.css', to: 'css/' },
-            { from: 'src/images/logo.png', to: 'images/' },
+            { from: 'src/images/spaceships.png', to: 'images/' },
+            { from: 'src/images/bullet.png', to: 'images/' },
+            { from: 'src/images/star_09.png', to: 'images/' },
+            { from: 'src/emitter.json', to: '/' },
+            
+            
         ]),
     ],
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
-        port: 8080,
+        port: 8000,
         hot: true
     },
     optimization: {
