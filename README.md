@@ -1,54 +1,11 @@
-# Pixi.js Project #
+# Basic Space Shooter game with PIXI JS
 
-A generic frontend **Pixi.js** project boiler plate in **TypeScript** using **Webpack**.
+- PIXI JS version is 5.3.11
+- For localhost testing server using ~~python in-built http.server~~ NPM, Node.js
+- Used template - https://github.com/yahiko00/PixiProject
 
-Main features:
+## Status update (11.8 - 11.12):
+First 2 days get off with weird errors from the browser (import command not working, require function not existed, MIMO type error, webpack failure..)
 
-* Source Map support
-* Incremental Build
-* Unit tests
-* Browser Hot Reload
-
-
-Main dependencies:
-
-* **Application Server**: [Node](https://nodejs.org/en/)
-* **Compiler**: [TypeScript](https://github.com/Microsoft/TypeScript)
-* **Bundler**: [Webpack](https://github.com/webpack/webpack)
-* **Unit Test Runner**: [Mocha](https://github.com/mochajs/mocha)
-* **Pixi.js**: [Pixi.js](http://www.pixijs.com/)
-
-
-## Installation ##
-
-Node, TypeScript and TSLint should be installed globally.
-
-	$> git clone https://github.com/yahiko00/PixiProject.git <new folder>
-	$> cd <new folder>
-	$> git init
-	$> npm install
-
-
-## Build ##
-
-Commands should be run under a **bash** shell.
-
-The following command builds and run the project in development mode with Hot Reload.
-
-	$> npm run serve
-
-The following command builds the project in production mode.
-
-	$> npm run build
-
-
-For more predefined commands, see `package.json`, item `scripts`.
-
-## Contributors ##
-
-yahiko
-
-
-## Licence ##
-
-MIT
+Fourth day getting a boilertemplate for PIXI - https://github.com/yahiko00/PixiProject.
+The new and current version can be found on the **'0.1' branch**.
